@@ -18,7 +18,7 @@
 | ADDRESS     | 打卡定位地址|
 | LAT         | 纬度|
 | LNG         | 经度|
-| DISTRICT    | 地区:如河南省-郑州市-金水区|
+| DISTRICT    | 地区:如xx省-xx市-xx区|
 | DEVICETOKEN | 你抓包得到的devicetoken|
 | SCKEY       | sever酱key|
 - 4.DEVICETOKEN获取方法。
