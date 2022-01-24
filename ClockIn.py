@@ -50,7 +50,7 @@ def login():
         'phone': phone,
         'password': encoded_pwd,
         'mobileSystem': '10',
-        'appVersion': '1.6.4',
+        'appVersion': '1.7.3',
         'mobileVersion': 'Mate30',
         'deviceToken': deviceToken,
         'pushToken': '0938765546475757478765800CN01',
