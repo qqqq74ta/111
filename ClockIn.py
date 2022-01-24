@@ -51,9 +51,9 @@ def login():
         'password': encoded_pwd,
         'mobileSystem': '10',
         'appVersion': '1.7.3',
-        'mobileVersion': 'Mate30',
+        'mobileVersion': 'Mate40',
         'deviceToken': deviceToken,
-        'pushToken': '0938765546475757478765800CN01',
+        'pushToken': '0938765F46475757478765800CN01',
         'romInfo': 'hw'
     }
 
