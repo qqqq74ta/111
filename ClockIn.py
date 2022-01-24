@@ -84,7 +84,7 @@ def sign_in(token):
     content = {"location": {"address": address, "lat": lat, "lng": lng, "code": "1"}, "temperature": "36.6",
                         "health": "是", "observation": "否", "confirmed": "否", "haveCOVIDInPlaceOfAbode": "否",
                         "goToHuiBei": "否", "contactIllPerson": "否", "haveYouEverBeenAbroad": "否",
-                        "familyPeopleNum": "4", "isFamilyHealth": "否", "isFamilyColdChain": "否", "isFamilyStatus": "否",
+                        "familyPeopleNum": "3", "isFamilyHealth": "否", "isFamilyColdChain": "否", "isFamilyStatus": "否",
                         "familyPeopleIsAway": "否", "hasYourFamilyEverBeenAbroad": "否", "leave": "否",
                         "isYesterdayMove": "否", "admission": "是", "help": "", "nowLocation": district}
     data = {"health": 0,
