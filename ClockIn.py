@@ -27,10 +27,7 @@ date = date + str(day)
 # Wxpush()消息推送模块
 def Wxpush(msg):
     url = f'https://sc.ftqq.com/{sckey}.send?text={date}日{msg}'
-    for _ in range(3):
-        err = requests.get(url)
-        if not err.json()['errno']:
-            break
+    err = requests.get(url)
 
 
 # 指点天下登录模块
